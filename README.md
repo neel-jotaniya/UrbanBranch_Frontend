@@ -24,8 +24,8 @@ The frontend for the AI Chat Personality Application is built using React, Tailw
 ### Steps to Install and Run:
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd frontend
+   git clone https://github.com/neel-jotaniya/UrbanBranch_Frontend.git
+   cd UrbanBranch_Frontend
    ```
 
 2. Install dependencies:
