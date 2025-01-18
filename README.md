@@ -1,75 +1,44 @@
-# AI Chat Personality Application Frontend
+# Admin Panel for AI Chat Personality Application
 
 ## Description
-The frontend for the AI Chat Personality Application is built using React, Tailwind CSS, and Vite. It provides an intuitive interface for users to interact with the AI chat application, manage their profiles, and view their chat history. The design ensures a seamless user experience, leveraging modern technologies for speed, scalability, and responsiveness.
+The admin panel is a secure interface designed to manage and monitor user data for the AI Chat Personality Application. Access is restricted by a password to ensure data privacy and security. The admin panel provides the following functionalities:
+- View a list of all registered users.
+- Access detailed data for a selected user.
 
-## Key Features
-- User-friendly interface for onboarding and chatting
-- Responsive design using Tailwind CSS
-- High-performance development environment with Vite
-- Integration with Flask backend for real-time chat functionality
-- Secure API communication using Firebase
 
-## Technologies Used
-- **React**: For building the user interface
-- **Tailwind CSS**: For styling the application
-- **Vite**: For a fast and efficient development environment
 
 ## Installation
 
-### Prerequisites:
-- Node.js (v16 or later)
-- NPM (v8 or later) or Yarn
+### Prerequisites
+- Node.js 16+
+- Firebase setup for the application backend.
 
-### Steps to Install and Run:
+### Steps to Install
 1. Clone the repository:
    ```bash
-   git clone https://github.com/neel-jotaniya/UrbanBranch_Frontend.git
-   cd UrbanBranch_Frontend
+   git clone https://github.com/neel-jotaniya/UrbanBranch_Frontend_Admin.git
+   cd UrbanBranch_Frontend_Admin
    ```
-
 2. Install dependencies:
    ```bash
    npm install
-   # or
-   yarn install
    ```
-
-
-3. Start the development server:
+3. Start the application:
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
-4. Open the application in your browser:
-   Navigate to `http://localhost:5173`.
+   The application will run on `http://localhost:5173` by default.
 
 
-## Available Scripts
-- `npm run dev`: Starts the development server
-- `npm run build`: Builds the application for production
-- `npm run preview`: Previews the production build
+## Usage
 
-## Deployment
-1. Build the application:
-   ```bash
-   npm run build
-   # or
-   yarn build
-   ```
+### Login
+1. Open the admin panel in your browser.
+2. Enter the admin password to gain access.
+3. Successful login will redirect you to the user management dashboard.
 
-2. Deploy the `dist` folder to your preferred hosting platform (e.g., Firebase Hosting, Netlify, Vercel).
-
-## API Endpoints
-The frontend communicates with the backend through the following endpoints:
-
-### Chat
-- `POST /chat`: Send and receive chat messages
-
-### Onboarding
-- `POST /onboarding`: Submit user details and personality questionnaire
-
-
+### User Management
+- **View Users**: The main dashboard displays a list of all registered users.
+- **View User Data**: Click on a user entry to open a detailed view, which includes their questionnaire responses, chat history, and other stored data.
 
